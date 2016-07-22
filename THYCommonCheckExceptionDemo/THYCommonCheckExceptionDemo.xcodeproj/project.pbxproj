@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8E65AB2F3D4B778A485D05 /* libPods-THYCommonCheckExceptionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C861C8C1FA1B9287825550F /* libPods-THYCommonCheckExceptionDemo.a */; };
+		935C5DEE1D422861002051AE /* NSArray+THYCheckNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C5DE61D422861002051AE /* NSArray+THYCheckNSArray.m */; };
+		935C5DEF1D422861002051AE /* NSDictionary+THYCheckNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C5DE81D422861002051AE /* NSDictionary+THYCheckNSDictionary.m */; };
+		935C5DF01D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C5DEA1D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.m */; };
+		935C5DF11D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C5DEC1D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.m */; };
+		935C5DF41D42286E002051AE /* ViewController+ViewControllerHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C5DF31D42286E002051AE /* ViewController+ViewControllerHook.m */; };
+		935C5DF71D422876002051AE /* CTViewControllerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C5DF61D422876002051AE /* CTViewControllerIntercepter.m */; };
+		939342E71D3DEECB00F752E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939342E61D3DEECB00F752E6 /* main.m */; };
+		939342EA1D3DEECB00F752E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939342E91D3DEECB00F752E6 /* AppDelegate.m */; };
+		939342ED1D3DEECB00F752E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939342EC1D3DEECB00F752E6 /* ViewController.m */; };
+		939342F21D3DEECB00F752E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939342F11D3DEECB00F752E6 /* Assets.xcassets */; };
+		939342F51D3DEECB00F752E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939342F31D3DEECB00F752E6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		468F3AC3E1A9DDDFC8035DBB /* Pods-THYCommonCheckExceptionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THYCommonCheckExceptionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-THYCommonCheckExceptionDemo/Pods-THYCommonCheckExceptionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8C861C8C1FA1B9287825550F /* libPods-THYCommonCheckExceptionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THYCommonCheckExceptionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		935C5DE51D422861002051AE /* NSArray+THYCheckNSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+THYCheckNSArray.h"; sourceTree = "<group>"; };
+		935C5DE61D422861002051AE /* NSArray+THYCheckNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+THYCheckNSArray.m"; sourceTree = "<group>"; };
+		935C5DE71D422861002051AE /* NSDictionary+THYCheckNSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+THYCheckNSDictionary.h"; sourceTree = "<group>"; };
+		935C5DE81D422861002051AE /* NSDictionary+THYCheckNSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+THYCheckNSDictionary.m"; sourceTree = "<group>"; };
+		935C5DE91D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+THYCheckNSMutableArray.h"; sourceTree = "<group>"; };
+		935C5DEA1D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+THYCheckNSMutableArray.m"; sourceTree = "<group>"; };
+		935C5DEB1D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+THYCheckNSMutableDictionary.h"; sourceTree = "<group>"; };
+		935C5DEC1D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+THYCheckNSMutableDictionary.m"; sourceTree = "<group>"; };
+		935C5DED1D422861002051AE /* THY_CheckHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THY_CheckHeader.h; sourceTree = "<group>"; };
+		935C5DF21D42286E002051AE /* ViewController+ViewControllerHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+ViewControllerHook.h"; sourceTree = "<group>"; };
+		935C5DF31D42286E002051AE /* ViewController+ViewControllerHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ViewControllerHook.m"; sourceTree = "<group>"; };
+		935C5DF51D422876002051AE /* CTViewControllerIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTViewControllerIntercepter.h; sourceTree = "<group>"; };
+		935C5DF61D422876002051AE /* CTViewControllerIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewControllerIntercepter.m; sourceTree = "<group>"; };
+		939342E21D3DEECB00F752E6 /* THYCommonCheckExceptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THYCommonCheckExceptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939342E61D3DEECB00F752E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		939342E81D3DEECB00F752E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		939342E91D3DEECB00F752E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		939342EB1D3DEECB00F752E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		939342EC1D3DEECB00F752E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		939342F11D3DEECB00F752E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939342F41D3DEECB00F752E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		939342F61D3DEECB00F752E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9393430C1D3DEFBF00F752E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A20771FC2AD2F217D23E8F49 /* Pods-THYCommonCheckExceptionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THYCommonCheckExceptionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THYCommonCheckExceptionDemo/Pods-THYCommonCheckExceptionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939342DF1D3DEECB00F752E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8E65AB2F3D4B778A485D05 /* libPods-THYCommonCheckExceptionDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFB49E1DD47D31A1577A778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A20771FC2AD2F217D23E8F49 /* Pods-THYCommonCheckExceptionDemo.debug.xcconfig */,
+				468F3AC3E1A9DDDFC8035DBB /* Pods-THYCommonCheckExceptionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62CAD93A08E2144AA03B6EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C861C8C1FA1B9287825550F /* libPods-THYCommonCheckExceptionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		935C5DE41D422861002051AE /* THYCommonCheckException */ = {
+			isa = PBXGroup;
+			children = (
+				935C5DE51D422861002051AE /* NSArray+THYCheckNSArray.h */,
+				935C5DE61D422861002051AE /* NSArray+THYCheckNSArray.m */,
+				935C5DE71D422861002051AE /* NSDictionary+THYCheckNSDictionary.h */,
+				935C5DE81D422861002051AE /* NSDictionary+THYCheckNSDictionary.m */,
+				935C5DE91D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.h */,
+				935C5DEA1D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.m */,
+				935C5DEB1D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.h */,
+				935C5DEC1D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.m */,
+				935C5DED1D422861002051AE /* THY_CheckHeader.h */,
+			);
+			path = THYCommonCheckException;
+			sourceTree = SOURCE_ROOT;
+		};
+		939342D91D3DEECB00F752E6 = {
+			isa = PBXGroup;
+			children = (
+				939342E41D3DEECB00F752E6 /* THYCommonCheckExceptionDemo */,
+				939342E31D3DEECB00F752E6 /* Products */,
+				0AFB49E1DD47D31A1577A778 /* Pods */,
+				62CAD93A08E2144AA03B6EA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		939342E31D3DEECB00F752E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939342E21D3DEECB00F752E6 /* THYCommonCheckExceptionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939342E41D3DEECB00F752E6 /* THYCommonCheckExceptionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				939342E81D3DEECB00F752E6 /* AppDelegate.h */,
+				939342E91D3DEECB00F752E6 /* AppDelegate.m */,
+				939342EB1D3DEECB00F752E6 /* ViewController.h */,
+				939342EC1D3DEECB00F752E6 /* ViewController.m */,
+				935C5DF21D42286E002051AE /* ViewController+ViewControllerHook.h */,
+				935C5DF31D42286E002051AE /* ViewController+ViewControllerHook.m */,
+				935C5DF51D422876002051AE /* CTViewControllerIntercepter.h */,
+				935C5DF61D422876002051AE /* CTViewControllerIntercepter.m */,
+				935C5DE41D422861002051AE /* THYCommonCheckException */,
+				939342E51D3DEECB00F752E6 /* Supporting Files */,
+			);
+			path = THYCommonCheckExceptionDemo;
+			sourceTree = "<group>";
+		};
+		939342E51D3DEECB00F752E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				939342F11D3DEECB00F752E6 /* Assets.xcassets */,
+				9393430C1D3DEFBF00F752E6 /* PrefixHeader.pch */,
+				939342F31D3DEECB00F752E6 /* LaunchScreen.storyboard */,
+				939342F61D3DEECB00F752E6 /* Info.plist */,
+				939342E61D3DEECB00F752E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939342E11D3DEECB00F752E6 /* THYCommonCheckExceptionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939342F91D3DEECB00F752E6 /* Build configuration list for PBXNativeTarget "THYCommonCheckExceptionDemo" */;
+			buildPhases = (
+				AC63AEADAAEC5E2A673B9FE6 /* [CP] Check Pods Manifest.lock */,
+				939342DE1D3DEECB00F752E6 /* Sources */,
+				939342DF1D3DEECB00F752E6 /* Frameworks */,
+				939342E01D3DEECB00F752E6 /* Resources */,
+				E6AA5B7C96C66A6501CB0DEB /* [CP] Embed Pods Frameworks */,
+				85AFFADD834D737B71EE8542 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THYCommonCheckExceptionDemo;
+			productName = THYCommonCheckExceptionDemo;
+			productReference = 939342E21D3DEECB00F752E6 /* THYCommonCheckExceptionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939342DA1D3DEECB00F752E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = thy;
+				TargetAttributes = {
+					939342E11D3DEECB00F752E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 939342DD1D3DEECB00F752E6 /* Build configuration list for PBXProject "THYCommonCheckExceptionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 939342D91D3DEECB00F752E6;
+			productRefGroup = 939342E31D3DEECB00F752E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939342E11D3DEECB00F752E6 /* THYCommonCheckExceptionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939342E01D3DEECB00F752E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939342F51D3DEECB00F752E6 /* LaunchScreen.storyboard in Resources */,
+				939342F21D3DEECB00F752E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85AFFADD834D737B71EE8542 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THYCommonCheckExceptionDemo/Pods-THYCommonCheckExceptionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC63AEADAAEC5E2A673B9FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AA5B7C96C66A6501CB0DEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THYCommonCheckExceptionDemo/Pods-THYCommonCheckExceptionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939342DE1D3DEECB00F752E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935C5DF41D42286E002051AE /* ViewController+ViewControllerHook.m in Sources */,
+				935C5DF11D422861002051AE /* NSMutableDictionary+THYCheckNSMutableDictionary.m in Sources */,
+				939342ED1D3DEECB00F752E6 /* ViewController.m in Sources */,
+				939342EA1D3DEECB00F752E6 /* AppDelegate.m in Sources */,
+				935C5DEE1D422861002051AE /* NSArray+THYCheckNSArray.m in Sources */,
+				939342E71D3DEECB00F752E6 /* main.m in Sources */,
+				935C5DF71D422876002051AE /* CTViewControllerIntercepter.m in Sources */,
+				935C5DF01D422861002051AE /* NSMutableArray+THYCheckNSMutableArray.m in Sources */,
+				935C5DEF1D422861002051AE /* NSDictionary+THYCheckNSDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		939342F31D3DEECB00F752E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939342F41D3DEECB00F752E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		939342F71D3DEECB00F752E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939342F81D3DEECB00F752E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939342FA1D3DEECB00F752E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20771FC2AD2F217D23E8F49 /* Pods-THYCommonCheckExceptionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/THYCommonCheckExceptionDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = THYCommonCheckExceptionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thy.THYCommonCheckExceptionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		939342FB1D3DEECB00F752E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468F3AC3E1A9DDDFC8035DBB /* Pods-THYCommonCheckExceptionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/THYCommonCheckExceptionDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = THYCommonCheckExceptionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thy.THYCommonCheckExceptionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939342DD1D3DEECB00F752E6 /* Build configuration list for PBXProject "THYCommonCheckExceptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939342F71D3DEECB00F752E6 /* Debug */,
+				939342F81D3DEECB00F752E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939342F91D3DEECB00F752E6 /* Build configuration list for PBXNativeTarget "THYCommonCheckExceptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939342FA1D3DEECB00F752E6 /* Debug */,
+				939342FB1D3DEECB00F752E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939342DA1D3DEECB00F752E6 /* Project object */;
+}
